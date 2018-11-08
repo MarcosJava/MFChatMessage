@@ -10,14 +10,16 @@
 		1800C8D42193C61200BE275F /* MFChatMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1800C8CA2193C61200BE275F /* MFChatMessage.framework */; };
 		1800C8D92193C61200BE275F /* MFChatMessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800C8D82193C61200BE275F /* MFChatMessageTests.swift */; };
 		1800C8DB2193C61200BE275F /* MFChatMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1800C8CD2193C61200BE275F /* MFChatMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18DFA1872193CB5D009818CE /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 18DFA1832193CB5C009818CE /* Views */; };
-		18DFA1882193CB5D009818CE /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 18DFA1832193CB5C009818CE /* Views */; };
-		18DFA1892193CB5D009818CE /* ViewControllers in Resources */ = {isa = PBXBuildFile; fileRef = 18DFA1842193CB5C009818CE /* ViewControllers */; };
-		18DFA18A2193CB5D009818CE /* ViewControllers in Resources */ = {isa = PBXBuildFile; fileRef = 18DFA1842193CB5C009818CE /* ViewControllers */; };
-		18DFA18B2193CB5D009818CE /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 18DFA1852193CB5D009818CE /* Models */; };
-		18DFA18C2193CB5D009818CE /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 18DFA1852193CB5D009818CE /* Models */; };
-		18DFA18D2193CB5D009818CE /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = 18DFA1862193CB5D009818CE /* Extensions */; };
-		18DFA18E2193CB5D009818CE /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = 18DFA1862193CB5D009818CE /* Extensions */; };
+		18DFA1912193D011009818CE /* ChatMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA1902193D011009818CE /* ChatMessageModel.swift */; };
+		18DFA1922193D011009818CE /* ChatMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA1902193D011009818CE /* ChatMessageModel.swift */; };
+		18DFA1982193D03B009818CE /* DataHeaderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA1962193D03B009818CE /* DataHeaderLabel.swift */; };
+		18DFA1992193D03B009818CE /* DataHeaderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA1962193D03B009818CE /* DataHeaderLabel.swift */; };
+		18DFA19A2193D03B009818CE /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA1972193D03B009818CE /* ChatMessageCell.swift */; };
+		18DFA19B2193D03B009818CE /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA1972193D03B009818CE /* ChatMessageCell.swift */; };
+		18DFA19D2193D048009818CE /* ChatMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA19C2193D048009818CE /* ChatMessageViewController.swift */; };
+		18DFA19E2193D048009818CE /* ChatMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA19C2193D048009818CE /* ChatMessageViewController.swift */; };
+		18DFA1A02193D053009818CE /* Date+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA19F2193D053009818CE /* Date+Custom.swift */; };
+		18DFA1A12193D053009818CE /* Date+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA19F2193D053009818CE /* Date+Custom.swift */; };
 		C7E69B350193F514E2B1C41F /* Pods_MFChatMessageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409CBE29A9DC99662B2FD408 /* Pods_MFChatMessageTests.framework */; };
 		EBA48D9B1D9E213C69937E04 /* Pods_MFChatMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2B95E593F52EE62703EA3E /* Pods_MFChatMessage.framework */; };
 /* End PBXBuildFile section */
@@ -39,10 +41,11 @@
 		1800C8D32193C61200BE275F /* MFChatMessageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFChatMessageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1800C8D82193C61200BE275F /* MFChatMessageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFChatMessageTests.swift; sourceTree = "<group>"; };
 		1800C8DA2193C61200BE275F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18DFA1832193CB5C009818CE /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
-		18DFA1842193CB5C009818CE /* ViewControllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewControllers; sourceTree = "<group>"; };
-		18DFA1852193CB5D009818CE /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
-		18DFA1862193CB5D009818CE /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
+		18DFA1902193D011009818CE /* ChatMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageModel.swift; sourceTree = "<group>"; };
+		18DFA1962193D03B009818CE /* DataHeaderLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHeaderLabel.swift; sourceTree = "<group>"; };
+		18DFA1972193D03B009818CE /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		18DFA19C2193D048009818CE /* ChatMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageViewController.swift; sourceTree = "<group>"; };
+		18DFA19F2193D053009818CE /* Date+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Custom.swift"; sourceTree = "<group>"; };
 		409CBE29A9DC99662B2FD408 /* Pods_MFChatMessageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFChatMessageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		466D2650958D91837EA894ED /* Pods-MFChatMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFChatMessage.debug.xcconfig"; path = "Target Support Files/Pods-MFChatMessage/Pods-MFChatMessage.debug.xcconfig"; sourceTree = "<group>"; };
 		491562FA494C299F0E6184E0 /* Pods-MFChatMessageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFChatMessageTests.debug.xcconfig"; path = "Target Support Files/Pods-MFChatMessageTests/Pods-MFChatMessageTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,10 +98,10 @@
 		1800C8CC2193C61200BE275F /* MFChatMessage */ = {
 			isa = PBXGroup;
 			children = (
-				18DFA1862193CB5D009818CE /* Extensions */,
-				18DFA1852193CB5D009818CE /* Models */,
-				18DFA1842193CB5C009818CE /* ViewControllers */,
-				18DFA1832193CB5C009818CE /* Views */,
+				18DFA1952193D02F009818CE /* View */,
+				18DFA1942193D026009818CE /* ViewController */,
+				18DFA1932193D01D009818CE /* Extension */,
+				18DFA18F2193CFF7009818CE /* Models */,
 				1800C8CD2193C61200BE275F /* MFChatMessage.h */,
 				1800C8CE2193C61200BE275F /* Info.plist */,
 			);
@@ -112,6 +115,40 @@
 				1800C8DA2193C61200BE275F /* Info.plist */,
 			);
 			path = MFChatMessageTests;
+			sourceTree = "<group>";
+		};
+		18DFA18F2193CFF7009818CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18DFA1902193D011009818CE /* ChatMessageModel.swift */,
+			);
+			name = Models;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		18DFA1932193D01D009818CE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18DFA19F2193D053009818CE /* Date+Custom.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		18DFA1942193D026009818CE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18DFA19C2193D048009818CE /* ChatMessageViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		18DFA1952193D02F009818CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18DFA1972193D03B009818CE /* ChatMessageCell.swift */,
+				18DFA1962193D03B009818CE /* DataHeaderLabel.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		3C432316B31F29C0F6173998 /* Pods */ = {
@@ -227,10 +264,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DFA18B2193CB5D009818CE /* Models in Resources */,
-				18DFA1872193CB5D009818CE /* Views in Resources */,
-				18DFA18D2193CB5D009818CE /* Extensions in Resources */,
-				18DFA1892193CB5D009818CE /* ViewControllers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,10 +271,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DFA18C2193CB5D009818CE /* Models in Resources */,
-				18DFA1882193CB5D009818CE /* Views in Resources */,
-				18DFA18E2193CB5D009818CE /* Extensions in Resources */,
-				18DFA18A2193CB5D009818CE /* ViewControllers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +328,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DFA1A02193D053009818CE /* Date+Custom.swift in Sources */,
+				18DFA19A2193D03B009818CE /* ChatMessageCell.swift in Sources */,
+				18DFA1912193D011009818CE /* ChatMessageModel.swift in Sources */,
+				18DFA19D2193D048009818CE /* ChatMessageViewController.swift in Sources */,
+				18DFA1982193D03B009818CE /* DataHeaderLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +341,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1800C8D92193C61200BE275F /* MFChatMessageTests.swift in Sources */,
+				18DFA19B2193D03B009818CE /* ChatMessageCell.swift in Sources */,
+				18DFA1922193D011009818CE /* ChatMessageModel.swift in Sources */,
+				18DFA1992193D03B009818CE /* DataHeaderLabel.swift in Sources */,
+				18DFA1A12193D053009818CE /* Date+Custom.swift in Sources */,
+				18DFA19E2193D048009818CE /* ChatMessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +538,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 491562FA494C299F0E6184E0 /* Pods-MFChatMessageTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V2686JM7D9;
 				INFOPLIST_FILE = MFChatMessageTests/Info.plist;
@@ -518,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0C6EACEA06941C3711A253E /* Pods-MFChatMessageTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V2686JM7D9;
 				INFOPLIST_FILE = MFChatMessageTests/Info.plist;
